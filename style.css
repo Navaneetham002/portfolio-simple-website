@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+     font-family: "Young Serif", serif;
+}
+/* portfolio styles*/
+.container{
+    padding:60px;
+}
+.intro-section{
+    background-color: #101010;
+    color: #fff;
+    padding: 20px;
+}
+.intro-section__link{
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px;
+    text-decoration: none;
+    display: inline-block;
+}
+.intro-section__heading{
+    font-size: 60px;
+}
+.intro-section__subtitle{
+    font-size: 30px;
+    margin: 10px 0 0 0;
+}
+.about-section, .listing-section, .list-section, .footer{
+    margin: 20px 0 0 0;
+}
+.about-section__para, .about-section__list, .listing-section__list, .footer__copyright{
+    margin: 10px 0 0 0;
+}
+.footer{
+    background-color: #101010;
+    color:#fff;
+    padding: 20px;
+}
+.footer__title a{
+    color: skyblue;
+}
+.list-section li, .listing-section li{
+    list-style: none;
+}
+.list-section{
+    background-color: #6462fd;
+    color: #101010;
+    padding: 20px;
+    display: inline-block;
+    height: 100px;
+    border-radius: 12px;
+    vertical-align: top;
+}
+.listing-section{
+    background-color: #fe7517;
+    color: #101010;
+    padding: 20px;
+    display: inline-block;
+    height: 100px;
+    border-radius: 12px;
+}
+/* end portfolio styles */
+
+/* contact styles */
+.contact-form{
+    margin: 20px;
+}
+
+.contact-form__input, .contact-form__textarea , .contact-form__submit{
+    margin: 10px 0 0 0;
+}
+
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #101010;
+}
+
+.contact-form__textarea{
+    padding: 10px;
+    border: 1px solid #101010;
+    border-bottom: 1px solid #101010;
+}
+
+.contact-form__submit{
+    padding: 10px 20px;
+    background-color: orangered;
+    color: black;
+    border: none;
+}
